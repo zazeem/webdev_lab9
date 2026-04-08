@@ -3,9 +3,9 @@ function init(){
   var button = document.getElementById('entrybutton');
 
 function popupAlert(){
-  var text = document.getElementById('entryinput');
-  document.getElementById("textoutput").innerHTML = textbox.value;
+  var textbox = document.getElementById('entryinput');
   alert("Zainab Azeem: " + textbox.value);
+  document.getElementById('textoutput').innerHTML = textbox.value;
   } 
 
 button.addEventListener('click', popupAlert);
