@@ -1,15 +1,14 @@
 function init(){
 //add your javascrip between these two lines of code
-  var button = document.getElementByID('entrybutton');
+  var button = document.getElementById('entrybutton');
 
-  function alert(){
-    var text = document.getElementByID('entryinput');
-    document.getElementByID().innerHTML = textbox.value;
-    alert("Zainab Azeem" + textbox.value);
+function popupAlert(){
+  var text = document.getElementById('entryinput');
+  document.getElementById("textoutput").innerHTML = textbox.value;
+  alert("Zainab Azeem: " + textbox.value);
   } 
 
-button.addEventListener('click', alert)
+button.addEventListener('click', popupAlert);
 }
-
 
 window.addEventListener('load', init);
