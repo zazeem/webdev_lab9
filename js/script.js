@@ -4,7 +4,7 @@ function init(){
 
   function alert(){
     var text = document.getElementByID('entryinput');
-    document.getElementByID() = textbox.value;
+    document.getElementByID().innerHTML = textbox.value;
     alert("Zainab Azeem" + textbox.value);
   } 
 
